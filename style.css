@@ -303,6 +303,7 @@ span {
 
 .projects{
     background: #323946;
+    padding-bottom: 400px;
 }
 .projects h2 {
     margin-bottom: 2px;
@@ -537,71 +538,6 @@ span {
       transform: translateY(0);
     }
 }
-  
-/* BREAK POINTS */
-
-/* .navbar.collapsed {
-    display: none;
-}
-  
-@media(max-width:1200px){
-    html {
-        font-size: 55%;
-    }
-}
-
-@media(max-width:991px){
-    .header{
-        padding: 2rem, 3%;
-    }
-    section {
-        padding: 10rem 3% 2rem;
-    }
-    .footer{
-        padding: 2rem 3%;
-    }
-}
-
-@media(max-width:768px){
-    #menu-icon {
-        display: block;
-    }
-    .navbar{
-        position: absolute;
-        top:100%;
-        left:0;
-        width: 100%;
-        padding: 1rem 3%;
-        background: #0ef;
-        border-top: .1rem solid rgba(0,0,0,.2);
-        box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-    }
-    .navbar a{
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-
-    }
-}
-
-/* Add CSS styles for the responsive toggle menu */
-/*.menu-toggle {
-    display: none;
-}
-        
-@media screen and (max-width: 768px) {
-    .navbar {
-        display: none;
-    }
-            
-    .menu-toggle {
-        display: block;
-    }
-            
-    .menu-open .navbar {
-        display: block;
-    }
-} */
 
 /*scroll bar at the right side of the page*/
 

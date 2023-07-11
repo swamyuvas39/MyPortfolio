@@ -60,4 +60,16 @@ window.addEventListener('resize', function () {
     }
 });
 
+// Function to delete a todo item
+function deleteTodoItem(element) {
+  element.parentNode.removeChild(element);
+}
+
+// Add event listeners for delete buttons
+var deleteButtons = document.getElementsByClassName('delete-button');
+for (var i = 0; i < deleteButtons.length; i++) {
+  deleteButtons[i].addEventListener('click', function (event) {
+    deleteTodoItem(event.target.parentNode);
+  });
+}
 
